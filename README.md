@@ -1,1 +1,2 @@
 # rock-paper-scissors
+This is my rock paper scissors game. This project is for me to get used to java script programming. There is no GUI as the game is played entirely in the console. I will learn later on how to creat a GUI.
