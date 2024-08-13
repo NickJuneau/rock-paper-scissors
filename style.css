@@ -19,20 +19,72 @@ body {
     font-size: 40px;
 }
 
-.content {
+.button-container {
     display: flex;
     background-color: rgb(150, 150, 150);
     align-items: center;
     justify-content: center;
+    margin-top: 100px;
+    gap: 100px;
 }
 
-#description {
-    display: flex;
-    color: white;
-    background-color: rgb(133, 133, 133);
-    font-weight: 550;
-    font-size: 25px;
+button {
     padding: 50px;
-    margin-top: 15%;
-    border-radius: 30px;
+    font-size: 30px;
+    background-color: rgb(156, 187, 255);
+    border-color: rgb(51, 51, 51);
+    border-width: 7px;
+    border-style:solid;
+    border-radius: 10px;
+}
+
+.result-container {
+    display: flex;
+    background-color: rgb(150, 150, 150);
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 100px;
+    margin-top: 100px;
+}
+
+#computer-choice-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(99,99,99);
+    padding: 20px 100px;
+    border-radius: 10px;
+    color: white;
+    gap: 10px;
+}
+
+#choice-label {
+    font-size: 38px;
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+#choice-content {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+#score {
+    color: white;
+    background-color: rgb(99,99,99);
+    padding: 40px 100px;
+    border-radius: 10px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    color: white;
+    padding: 8px;
+    background-color: rgb(99,99,99);
+    margin: 10px;
+    border-radius: 7px;
 }

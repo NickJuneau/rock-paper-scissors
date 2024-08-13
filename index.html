@@ -5,15 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <link rel="stylesheet" href="style.css">
-    <script src="main.js"></script>
+    
 </head>
 <body>
     <div class="header">
         <div id="title">Rock Paper Scissors!</div>
     </div>
-    <div class="content">
-        <div id="description">The game is played in the console. Open up inspect element and enter the console to play!</div>
+    <div class="button-container">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div class="result-container">
+        <div id="computer-choice-container">
+            <div id="choice-label">Computer Choice</div>
+            <div id="choice-content"></div>
+        </div>
+        <div id="score">You: 0 | Computer: 0 | Ties: 0</div>
     </div>
 
+    <div class="footer">Created By: Nick Juneau</div>
+
+    <script src="main.js"></script>
 </body>
 </html>
